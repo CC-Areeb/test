@@ -6,3 +6,23 @@ Tools for testing:
 PHPunit, Mockery, PHPSpec, Storyplayer
 
 Laravel has PHPunit already integrated within
+
+PHPunit:
+It is a framework that is used for unit testing. A unit testing is a way to see how small peices of code will be tested against 
+expected results.
+
+Feture testing is method for checking how indivisual units of code will work together in pass a message
+
+Regression testing is a method for seeing how the user interacts with the application and make sure that the app will not stop
+
+HTTP testing where simple HTTP requests are sent like GET POST PUT PATCH DELETE
+
+Authenticating responses is used when we have to test authentication and authorization
+
+Database tests where tools and assertions are tested to make it easier to test database driven applications
+
+Commands to run in terminal for testing:
+
+./vendor/bin/phpunit 
+
+php artisan test (my choice)
