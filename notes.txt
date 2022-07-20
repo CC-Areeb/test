@@ -1,0 +1,8 @@
+We have 2 test case files as an example in the tests folder, inside this folder we have 2 sub-folders called Feature and Unit.
+These are the 2 types of testing that is carried out during the development of any project.
+
+Tools for testing:
+
+PHPunit, Mockery, PHPSpec, Storyplayer
+
+Laravel has PHPunit already integrated within
