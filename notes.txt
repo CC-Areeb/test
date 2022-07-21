@@ -26,3 +26,8 @@ Commands to run in terminal for testing:
 ./vendor/bin/phpunit 
 
 php artisan test (my choice)
+
+Create a new test:
+php artisan make:test Your_Test_Case_Name
+
+php artisan make:test Your_Test_Case_Name --unit ------> a test case file inside the unit folder
